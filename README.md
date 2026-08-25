@@ -31,7 +31,7 @@ is persisted to SQLite via TypeORM.
 ## How to run
 
 ```bash
-# requirements: Node.js 14–16 era runtime (see legacy note)
+# requirements: Node.js 14-16 era runtime (see legacy note)
 yarn install
 
 # run migrations
@@ -63,12 +63,17 @@ Open the client page at <http://localhost:3333/pages/client>.
 ## Legacy note
 
 Educational project from April 2021. Dependencies are pinned to that era
-(TypeScript 4.2, TypeORM 0.2, Node 14–16 runtimes); expect friction on current
+(TypeScript 4.2, TypeORM 0.2, Node 14-16 runtimes); expect friction on current
 Node versions without upgrades. Scope is limited to the client side of the
-chat flow — the admin dashboard was not implemented. Estimated modernization
-effort if picked up later: small (half-day) — bump dependencies to current
+chat flow; the admin dashboard was not implemented. Estimated modernization
+effort if picked up later: small (half-day), bump dependencies to current
 majors, replace SQLite config paths, and finish the admin socket handlers.
 No fixes are planned as part of this cleanup phase.
+
+## Author
+
+Built by [Tiago Gonçalves de Castro](https://github.com/tiagogcastro)
+· [LinkedIn](https://www.linkedin.com/in/tiagogcastro)
 
 ## License
 
